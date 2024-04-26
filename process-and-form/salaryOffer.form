@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "text": "# Salary Offer",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1vnfd31",
+        "columns": null
+      },
+      "id": "Field_0pq7td0"
+    },
+    {
+      "label": "Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1veuybc",
+        "columns": null
+      },
+      "id": "Field_0ma8xkk",
+      "key": "name"
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1mua7jo",
+        "columns": null
+      },
+      "id": "Field_09vapur",
+      "key": "email"
+    },
+    {
+      "values": [
+        {
+          "label": "Java Developer",
+          "value": "java_developer"
+        },
+        {
+          "label": "Camunda Developer",
+          "value": "camunda_developer"
+        },
+        {
+          "label": "Functional Analyst",
+          "value": "functional_analysts"
+        }
+      ],
+      "label": "Job to Propose an Offer",
+      "type": "select",
+      "layout": {
+        "row": "Row_0wvisjm",
+        "columns": null
+      },
+      "id": "Field_0z30y0m",
+      "key": "job"
+    }
+  ],
+  "type": "default",
+  "id": "salary-offer-form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.21.0",
+  "schemaVersion": 16
+}
